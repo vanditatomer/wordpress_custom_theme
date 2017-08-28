@@ -18,10 +18,9 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-				<?php //the_post_navigation(); ?>
-
 				<div class="read-more-journal">
 					<a href="<?php the_permalink(); ?>">
+						<p><?php the_excerpt(); ?></p>
 						<p>READ MORE&nbsp;&rarr;</p>
 					</a>
 				</div>

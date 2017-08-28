@@ -1,21 +1,24 @@
-# RED Starter
+# WORDPRESS CUSTOM THEME - INHABITENT
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A WordPress starter theme.
 
-## Installation
+## PLUGINS USED
 
-### 1. Download me (don't clone me!)
+1. Contact Form 7
+2. Red inhad function.
+3. Advanced Custom Fields
 
-Then add me to your `wp-content` directory.
+## WIDGETS
 
-### 2. Rename the `redstarter` directory
+Used widgets to create sidebars inside the footer and the side of the page.
 
-Make sure that the theme directory name is project appropriate!
+### WORDPRESS FUNCTIONALITY
 
-### 3. Install the dev dependencies
+Created:
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+1. Custom Post Types
+2. Taxonomies
+3. Pages
+4. Posts
 
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `inhabitent.dev` to the appropriate localhost URL).
+### Customized gulpfile
