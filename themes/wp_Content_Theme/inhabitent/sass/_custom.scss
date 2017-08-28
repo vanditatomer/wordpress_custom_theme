@@ -1,0 +1,765 @@
+.banner-image-on .menu-item a {
+	color: white;
+}
+
+.banner-image-off .menu-item a {
+	color: rgb(45, 134, 112);
+}
+
+.banner-home {
+	width: 35%;
+	padding: 1rem 0 0 6rem;
+}
+
+.banner-logo {
+	width: 30%;
+}
+
+.banner-menu {
+	font-size: 1.25rem;
+	width: 35%;
+	padding: 1rem 0 0 0;
+}
+
+#primary-menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-item {
+	padding: 0 1rem 0 1rem;
+}
+
+.menu-item a:hover {
+	text-decoration: underline;
+}
+
+.menu-item-search {
+	display: none;
+}
+
+.search-icon {
+	width: 24px;
+	margin-top: 5px;
+}
+
+.search-toggle {
+	padding: 0 6rem 0 0;
+}
+
+.shop-stuff-main {
+	font-size: 2.75rem;
+	text-align: center;
+	padding: 3rem 0 3rem 0;
+}
+
+.shop-stuff-archive {
+	font-size: 3rem;
+	text-align: center;
+	padding: 0.25rem 0 0.5rem 0;
+}
+
+.terms {
+	padding: 0 5rem 0 5rem;
+}
+
+.term-box {
+	width: 25%;
+	border-style: solid;
+	border-width: 6px 1px 1px 1px;
+	border-color: lightgrey;
+	margin: 0 1% 0 1%;
+	padding-bottom: 1.5rem;
+}
+
+.term-box a {
+	text-decoration: none;
+	color: black;
+}
+
+.term-image {
+	width: 5.5rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.term-description {
+	font-family: Merriweather-Light;
+	font-size: 1.25rem;
+	line-height: 2.25rem;
+	text-align: center;
+	width: 90%;
+}
+
+.term-description p:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.term-button {
+	background-color: rgb(45, 134, 112);
+	color: white;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.term-button p {
+	margin: 0;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.term-button p:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.terms-menu {
+	padding: 0 5rem 0 5rem;
+}
+
+.terms-menu-item {
+	text-align: center;
+	padding: 0 2.5rem 0 2.5rem;
+}
+
+.terms-menu-item a {
+	font-size: 1.5rem;
+	color: rgb(45, 134, 112);
+	text-decoration: none;
+}
+
+.terms-menu-item a:hover {
+	text-decoration: underline;
+	color: rgb(45, 134, 112);
+}
+
+.journal-heading {
+	font-size: 2.75rem;
+	text-align: center;
+	padding: 3rem 0 3rem 0;
+}
+
+.journal {
+	padding: 0 5rem 0 5rem;
+}
+
+.journal-box {
+	width: 33.3%;
+	margin: 0 1% 0 1%;
+}
+
+.journal-box a {
+	text-decoration: none;
+	color: black;
+}
+
+.journal-details {
+	border-style: solid;
+	border-width: 6px 1px 1px 1px;
+	border-color: lightgrey;
+	position: relative;
+	top: -0.5rem;
+	padding: 0 1rem 1rem 1rem;
+}
+
+.journal-date-comments {
+	font-family: Merriweather-Light;
+	font-size: 1rem;
+}
+
+.journal-date-comments p {
+	margin: 0;
+	padding: 1.5rem 0 0.5rem 0;
+}
+
+.journal-date-comments p:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.journal-title {
+	font-size: 1.75rem;
+	color: rgb(45, 134, 112);
+}
+
+.journal-title p {
+	line-height: 2.25rem;
+	margin: 0;
+	padding-bottom: 1.75rem;
+}
+
+.journal-title p:hover {
+	text-decoration: underline;
+	color: rgb(45, 134, 112);
+}
+
+.read-entry-button {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 1.25rem;
+	color: black;
+	text-align: center;
+	width: 40%;
+}
+
+.read-entry-button p {
+	margin: 0;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.read-entry-button p:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.journal-post {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: lightgrey;
+	width: 65%;
+	margin: 0 0 0 6rem;
+	padding-top: 3rem;
+}
+
+.journal-entry {
+	color: black;
+}
+
+.journal-image {
+	margin-right: 5rem;
+}
+
+.journal-image-box {
+	height: 42rem;
+}
+
+.journal-image-box h1 {
+	font-size: 2.75rem;
+	background-color: rgb(45, 134, 112);
+	color: white;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	width: 75%;
+}
+
+.journal-image-box h3 {
+	font-size: 1.25rem;
+	background-color: rgb(45, 134, 112);
+	color: white;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	text-align: right;
+	margin: 0;
+}
+
+.journal-image-box a {
+	text-decoration: none;
+	color: white;
+}
+
+.journal-image-box a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.journal-content {
+	font-family: Merriweather-Light;
+	font-size: 1.25rem;
+	line-height: 2.25rem;
+	color: black;
+	margin-top: 2rem;
+	margin-right: 5rem;
+}
+
+.journal-post .read-entry {
+	padding: 3rem 0 7rem 0;
+}
+
+.read-more-journal {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 1.25rem;
+	color: black;
+	text-align: center;
+	width: 20%;
+	margin-bottom: 5rem;
+}
+
+.read-more-journal a {
+	color: black;
+	text-decoration: none;
+}
+
+.read-more-journal a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.read-more-journal p {
+	margin: 0;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.adventures-heading {
+	font-size: 2.75rem;
+	text-align: center;
+	padding: 3rem 0 3rem 0;
+}
+
+.adventures {
+	color: white;
+	padding-left: 4rem;
+}
+
+.adventures a {
+	text-decoration: none;
+	color: white;
+}
+
+.adventures p:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.adventure-title {
+	font-family: Merriweather-Light;
+}
+
+.adventure-box-half {
+	height: 44rem;
+	width: 92%; margin: 0;
+	padding: 0 2rem 0 2rem;
+}
+
+.adventure-box-half .adventure-title {
+	font-size: 3.75rem;
+	line-height: 5rem;
+	padding-bottom: 2rem;
+}
+
+.adventure-box-quarter {
+	height: 92%;
+	width: 88%;
+	margin: 0 0 2% 0;
+	padding: 1rem 2rem 0 2rem;
+}
+
+.adventure-box-quarter .adventure-title {
+	font-size: 3rem;
+	line-height: 3.75rem;
+	padding-bottom: 1rem;
+}
+
+.adventure-box-eighth {
+	width: 42%;
+	margin: 2% 4% 0 0;
+	padding: 1.5rem 2rem 0 2rem;
+}
+
+.adventure-box-eighth .adventure-title {
+	font-size: 2.25rem;
+	line-height: 2.75rem;
+}
+
+.adventure-archive-box {
+	height: 86%;
+	width: 94%;
+	margin: 2%;
+	padding: 3rem 10rem 0 2rem;
+}
+
+.adventure-archive-box .adventure-title {
+	font-size: 3.5rem;
+	line-height: 4.5rem;
+	padding-bottom: 1rem;
+}
+
+
+
+
+.read-more-button {
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	font-size: 1.25rem;
+	text-align: center;
+	width: 11rem;
+}
+
+.read-more-button p {
+	margin: 0;
+	padding: 0.75rem 0 0.75rem 0;
+}
+
+.more-adventures {
+	padding: 0 0 1rem 1rem;
+}
+
+.more-adventures-button {
+	background-color: rgb(45, 134, 112);
+	width: 18%;
+	text-align: center;
+	margin: 2rem 0 2rem 5rem;
+	padding: 0.75rem 0 0.75rem 0;
+}
+
+.more-adventures-button a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+}
+
+.more-adventures-button a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.adventure-post .read-entry {
+	padding: 0 0 7rem 0;
+}
+
+.adventure-entry {
+	color: black;
+}
+
+.adventure-entry h1 {
+	font-size: 3rem;
+	margin: 0;
+	padding-top: 3rem;
+}
+
+.adventure-entry h3 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.adventure-content {
+	font-family: Merriweather-Light;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	color: black;
+	margin-top: 1rem;
+	margin-right: 5rem;
+}
+
+.adventure-post .read-entry {
+	padding: 0 0 7rem 4rem;
+}
+
+.adventures-archive {
+	font-size: 3rem;
+	text-align: center;
+	padding: 0.25rem 0 0.5rem 0;
+}
+
+.adventures-archive-border {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: lightgrey;
+	margin: 1rem 6rem 4rem 6rem;
+}
+
+// custom footer widget
+
+.footer-widget {
+	font-family: Merriweather-Light;
+}
+
+.footer-widget .contact {
+	padding-top: 4rem;
+}
+
+.footer-widget .contact ul {
+	list-style-type: none;
+	color: white;
+	font-size: 1.25rem;
+	line-height: 3rem;
+}
+
+.footer-widget .contact ul li:nth-child(1) {
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	color: orange;
+}
+
+.footer-widget .contact ul li:nth-child(2) a {
+	padding-left: 1rem;
+}
+
+.footer-widget .contact ul li:nth-child(3) span {
+	padding-left: 1rem;
+}
+
+.footer-widget .contact ul li:nth-child(4) {
+	word-spacing: 1rem;
+}
+
+.footer-widget .contact a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-widget .contact a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.footer-widget .business-hours {
+	padding-top: 4rem;
+}
+
+.footer-widget .business-hours ul {
+	list-style-type: none;
+	color: white;
+	font-size: 1.25rem;
+	line-height: 3rem;
+	margin: 0;
+}
+
+.footer-widget .business-hours ul li:nth-child(1) {
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	color: orange;
+}
+
+.footer-logo {
+	align-self: flex-end;
+	padding: 6rem 5rem 0 0;
+}
+
+.footer-widget .widget_custom_html {
+	width: 25%;
+}
+
+.footer-widget .widget_media_image {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.footer-widget .widget_media_image img {
+	width: 30rem;
+}
+
+.copyright {
+	font-size: 1.25rem;
+	color: white;
+	text-align: center;
+	padding: 3rem 0 1rem 0;
+}
+
+// custom sidebar widget
+
+.sidebar-widget {
+	font-family: Merriweather-Light;
+	width: 35%;
+	list-style-type: none;
+	padding: 6rem 0 0 5rem;
+}
+
+.sidebar-widget ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-widget .contact ul {
+	font-size: 1.25rem;
+	line-height: 3rem;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-widget .contact ul li:nth-child(1) {
+	font-family: sans-serif;
+	font-size: 1.75rem;
+	letter-spacing: 3px;
+	padding-bottom: 2rem;
+}
+
+.sidebar-widget .contact ul li:nth-child(2) span {
+	color: rgb(45, 134, 112);
+}
+
+.sidebar-widget .contact ul li:nth-child(2) span {
+	padding-left: 1rem;
+}
+
+.sidebar-widget .contact ul li:nth-child(3) a {
+	padding-left: 1rem;
+}
+
+.sidebar-widget .contact ul li:nth-child(4) span {
+	padding-left: 1rem;
+}
+
+.sidebar-widget .contact ul li:nth-child(5) {
+	line-height: 1.5rem;
+}
+
+.sidebar-widget .contact ul li:nth-child(5) span {
+	padding-left: 1.75rem;
+}
+
+.sidebar-widget .business-hours ul {
+	font-size: 1.25rem;
+	line-height: 3rem;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-widget .business-hours ul li:nth-child(1) {
+	font-family: sans-serif;
+	font-size: 1.75rem;
+	letter-spacing: 3px;
+	padding: 4rem 0 2rem 0;
+}
+
+.sidebar-widget h2 {
+	font-family: sans-serif;
+	font-size: 1.75rem;
+	letter-spacing: 3px;
+}
+
+.sidebar-widget a {
+	color: rgb(45, 134, 112);
+	text-decoration: none;
+}
+
+.sidebar-widget a:hover {
+	text-decoration: underline;
+}
+
+.sidebar-widget .widget_archive a {
+	font-size: 1.25rem;
+	line-height: 2.25rem;
+}
+
+.product {
+	margin: 0 6rem 0 6rem;
+	padding-top: 2rem;
+}
+
+.product-archive-border {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-color: lightgrey;
+	margin: 4rem 6rem 4rem 6rem;
+}
+
+.product-image-square {
+	margin: 0 1% 0 1%;
+}
+
+.product-image-large {
+	width: 50%;
+}
+
+.product-image-large img {
+	width: 95%;
+}
+
+.product-detail {
+	width: 50%;
+	padding-bottom: 10rem;
+}
+
+.product-detail h1 {
+	font-size: 3rem;
+	color: orange;
+	margin: 0;
+}
+
+.product-detail h3 {
+	font-family: Merriweather-Light;
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 1rem 0 1rem 0;
+}
+
+.product-detail p {
+	font-family: Merriweather-Light;
+	font-size: 1.25rem;
+	line-height: 180%;
+	color: black;
+	padding-bottom: 2rem;
+}
+
+.product-box a {
+	color: black;
+	text-decoration: none;
+}
+
+.product-box a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.product-price-box {
+	border-style: solid;
+	border-width: 6px 1px 1px 1px;
+	border-color: lightgrey;
+	font-family: Merriweather-Light;
+	font-size: 1.25rem;
+	margin: 0 1% 6% 1%;
+	padding: 0 1rem 0 1rem;
+	position: relative;
+	top: -0.5rem;
+}
+
+.read-entry a {
+	text-decoration: none;
+}
+
+.read-entry a:hover {
+	text-decoration: underline;
+}
+
+.horizontal-line {
+	margin: 0.5rem 0 0 0;
+}
+
+.about-section {
+	font-family: Merriweather-Light;
+	margin: 0 20% 0 20%;
+	padding-bottom: 5rem;
+}
+
+.about-section .entry-content h2 {
+	font-family: sans-serif;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.about-section .entry-content p {
+	font-size: 1.25rem;
+}
+
+.contact-section {
+	font-family: Merriweather-Light;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: lightgrey;
+	width: 83%;
+	margin: 0;
+	padding: 3rem 5rem 5rem 6rem;
+}
+
+.contact-section h2 {
+	font-family: sans-serif;
+	font-size: 3rem;
+}
+
+.contact-section .entry-content h2 {
+	font-family: sans-serif;
+	font-size: 2.5rem;
+}
+
+.contact-section .entry-content p {
+	font-size: 1.25rem;
+}
+
+.contact-post .read-entry {
+	padding: 3rem 0 7rem 0;
+}
