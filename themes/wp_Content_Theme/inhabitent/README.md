@@ -5,8 +5,7 @@ A WordPress starter theme.
 ## PLUGINS USED
 
 1. Contact Form 7
-2. Red inhad function.
-3. Advanced Custom Fields
+2. Advanced Custom Fields
 
 ## WIDGETS
 
